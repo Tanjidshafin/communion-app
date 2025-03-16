@@ -94,7 +94,7 @@ const Navbar = () => {
                         scale: 0.95
                     }} variants={linkVariants}>
                         <NavLink to="/" className="flex items-center">
-                            <span className="ml-2 text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-blue-600 dark:from-teal-400 dark:to-blue-400">
+                            <span className="ml-2 text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-600 dark:from-blue-400 dark:to-blue-400">
                                 CommunionHub
                             </span>
                         </NavLink>
@@ -110,7 +110,7 @@ const Navbar = () => {
                                         className={({ isActive }) =>
                                             `px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 relative group ${isActive
                                                 ? "text-white"
-                                                : "text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400"
+                                                : "text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
                                             }`
                                         }
                                     >
@@ -125,8 +125,8 @@ const Navbar = () => {
                                                         transition={{ duration: 0.3 }}
                                                     />
                                                 )}
-                                                <span className={`relative z-10 ${isActive ? "text-teal-400" : ""}`}>{link.name}</span>
-                                                <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-teal-600 ${isActive ? "scale-x-100" : ""} dark:bg-teal-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left`} />
+                                                <span className={`relative z-10 ${isActive ? "text-blue-400" : ""}`}>{link.name}</span>
+                                                <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 ${isActive ? "scale-x-100" : ""} dark:bg-blue-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left`} />
                                             </>
                                         )}
                                     </NavLink>
@@ -211,7 +211,7 @@ const Navbar = () => {
                                         to={link.path}
                                         className={({ isActive }) =>
                                             `block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${isActive
-                                                ? "bg-gradient-to-r from-teal-600 to-blue-600 text-white"
+                                                ? "bg-gradient-to-r from-blue-600 to-blue-600 text-white"
                                                 : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
                                             }`
                                         }
