@@ -1,6 +1,4 @@
 # Communion Hub
-
-![Communion Hub](https://your-image-url.com/banner.png)  
 *A platform connecting people of all faiths through events and community support.*
 
 ## 🌍 Live Demo
@@ -16,17 +14,9 @@ Communion Hub is a simple yet powerful React web application designed to foster 
 - ➕ **Add Events**: Simple form to create new events (Title, Date, Category).
 - 🎨 **Modern & Responsive UI**: Works seamlessly across desktop & mobile.
 - 🚀 **Smooth Animations**: Engaging transitions for a dynamic user experience.
-
-## 📸 Screenshots
-### 🏡 Home Page
-![Home Page Screenshot](https://i.ibb.co.com/whd5GVM0/Screenshot-2025-03-17-132617.png)
-
-### 📅 Events Page
-![Events Page Screenshot](https://i.ibb.co.com/N2Xd9KVK/Screenshot-2025-03-17-132631.png)
-
 ## 🛠️ Tech Stack
 - **Frontend**: React.js, Tailwind CSS
-- **Deployment**: Vercel/Netlify
+- **Deployment**: Netlify
 
 ## 🚀 Getting Started
 ### Prerequisites
