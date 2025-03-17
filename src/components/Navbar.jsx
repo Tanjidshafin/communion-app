@@ -33,7 +33,6 @@ const Navbar = () => {
     const navLinks = [
         { name: "Home", path: "/" },
         { name: "Events", path: "/events" },
-        { name: "About", path: "/about" },
     ]
     const navbarVariants = {
         hidden: { opacity: 0, y: -20 },
@@ -86,7 +85,7 @@ const Navbar = () => {
             animate="visible"
             variants={navbarVariants}
         >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
                     <motion.div className="flex items-center" whileTap={{
                         scale: 0.8
